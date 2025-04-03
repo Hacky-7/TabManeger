@@ -1,0 +1,79 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333;
+    --card-bg: #f4f4f4;
+}
+
+.dark-mode {
+    --bg-color: #222;
+    --text-color: #fff;
+    --card-bg: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+#link-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#links-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.link-card {
+    background: var(--card-bg);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-card button {
+    background-color: red;
+}
+
+#chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background: var(--card-bg);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#chat-log {
+    height: 100px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
