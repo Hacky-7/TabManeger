@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tab Manager</h1>
+        <button id="toggle-mode">🌙</button>
+    </header>
+    
+    <main>
+        <section id="link-form">
+            <input type="text" id="link-input" placeholder="Plak hier je link...">
+            <button id="add-link">Toevoegen</button>
+        </section>
+        
+        <section id="links-container"></section>
+    </main>
+
+    <div id="chat-container">
+        <div id="chat-log"></div>
+        <input type="text" id="chat-input" placeholder="Vraag iets aan de AI...">
+        <button id="send-chat">Verstuur</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
